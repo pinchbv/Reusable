@@ -17,9 +17,7 @@ import UIKit
 /// to be able to instantiate them from the Storyboard in a type-safe manner.
 ///
 /// You need to implement `sceneStoryboard` yourself to indicate the UIStoryboard this scene is from.
-public protocol StoryboardSceneBased: class {
-  /// The UIStoryboard to use when we want to instantiate this ViewController
-  static var sceneStoryboard: UIStoryboard { get }
+public protocol StoryboardSceneBased: StoryboardBased {
   /// The scene identifier to use when we want to instantiate this ViewController from its associated Storyboard
   static var sceneIdentifier: String { get }
 }

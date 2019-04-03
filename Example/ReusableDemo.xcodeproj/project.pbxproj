@@ -299,6 +299,7 @@
 				TargetAttributes = {
 					09B346081C4ED26F00BA041F = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = H6W4A8YK8A;
 						LastSwiftMigration = 1000;
 					};
 					37E3FC6B1E55CDD8000A7436 = {
@@ -383,7 +384,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ReusableDemo iOS/Pods-ReusableDemo iOS-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-ReusableDemo iOS/Pods-ReusableDemo iOS-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Reusable-iOS/Reusable.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -394,7 +395,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReusableDemo iOS/Pods-ReusableDemo iOS-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReusableDemo iOS/Pods-ReusableDemo iOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		81032A0CDCE1D819A5F1DE9D /* [CP] Check Pods Manifest.lock */ = {
@@ -427,7 +428,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ReusableDemo tvOS/Pods-ReusableDemo tvOS-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-ReusableDemo tvOS/Pods-ReusableDemo tvOS-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Reusable-tvOS/Reusable.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -438,7 +439,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReusableDemo tvOS/Pods-ReusableDemo tvOS-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReusableDemo tvOS/Pods-ReusableDemo tvOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EEF03881871BAFB249B4B8A0 /* [CP] Check Pods Manifest.lock */ = {
@@ -638,10 +639,11 @@
 			baseConfigurationReference = 096A3A284FE1BC6262AC3EB7 /* Pods-ReusableDemo iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H6W4A8YK8A;
 				INFOPLIST_FILE = "ReusableDemo iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.alisoftware.ReusableDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.pinch.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -652,10 +654,11 @@
 			baseConfigurationReference = 4033B8B5AA57F6CB717FCF24 /* Pods-ReusableDemo iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H6W4A8YK8A;
 				INFOPLIST_FILE = "ReusableDemo iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.alisoftware.ReusableDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = nl.pinch.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};

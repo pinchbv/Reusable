@@ -10,7 +10,6 @@ import UIKit
 import Reusable
 
 final class InfoDetailViewController: UIViewController, StoryboardSceneBased {
-  static let sceneStoryboard = UIStoryboard(name: "InfoViewController", bundle: nil)
 
   @IBOutlet private weak var detailsLabel: UILabel!
   private var detailsText: String?
