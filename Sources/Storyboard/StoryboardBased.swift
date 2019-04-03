@@ -28,20 +28,3 @@ public extension StoryboardBased {
     return UIStoryboard(name: String(describing: self), bundle: Bundle(for: self))
   }
 }
-
-// MARK: Support for instantiation from Storyboard
-
-public extension StoryboardBased where Self: UIViewController {
-  /**
-   Create an instance of the ViewController from its associated Storyboard's initialViewController
-
-   - returns: instance of the conforming ViewController
-   */
-  static func instantiate() -> Self {
-    let viewController = sceneStoryboard.instantiateInitialViewController()
-    guard let typedViewController = viewController as? Self else {
-      fatalError("The initialViewController of '\(sceneStoryboard)' is not of class '\(self)'")
-    }
-    return typedViewController
-  }
-}
