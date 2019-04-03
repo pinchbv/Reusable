@@ -299,7 +299,6 @@
 				TargetAttributes = {
 					09B346081C4ED26F00BA041F = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = H6W4A8YK8A;
 						LastSwiftMigration = 1000;
 					};
 					37E3FC6B1E55CDD8000A7436 = {
@@ -639,11 +638,10 @@
 			baseConfigurationReference = 096A3A284FE1BC6262AC3EB7 /* Pods-ReusableDemo iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = H6W4A8YK8A;
 				INFOPLIST_FILE = "ReusableDemo iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = nl.pinch.test;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alisoftware.ReusableDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -654,11 +652,10 @@
 			baseConfigurationReference = 4033B8B5AA57F6CB717FCF24 /* Pods-ReusableDemo iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = H6W4A8YK8A;
 				INFOPLIST_FILE = "ReusableDemo iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = nl.pinch.test;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alisoftware.ReusableDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
